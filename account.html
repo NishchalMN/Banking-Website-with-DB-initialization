@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PES Bank</title>
+	<link rel="stylesheet" type="text/css" href="account.css">
+</head>
+<body>
+	<header>
+		<div class="main">
+			<div class="logo">
+				<a href="inside.html"><img src="e.png"></a>
+			</div>
+			<ul>
+				<li><a href="inside.html">Home</a></li>
+				<li class="active"><a href="#">Transfer</a></li>
+				<li><a href="main.html">Logout</a></li>
+			</ul>
+		</div>
+	</header>
+		<div class="signup-page">
+			<div class="form">
+			<form class="signup-form" method="POST" action="temp_account.php">
+				<input type="text" name="acc_no" placeholder="Enter Benificiary account number" required/>
+				<input type="text" name="racc_no" placeholder="Re-enter Benificiary account number" required />
+				<input type="text" name="ifsc" placeholder="IFSC Code" required />
+				<input type="text" name="bname" placeholder="Benificiary name" />
+				<input type="text" name="amount" placeholder="Enter the amount" required/>
+				<input type="text" name="cust_id" placeholder="Enter your ID" required/>
+				<input type="password" name="passwrd" placeholder="Enter Password" required />
+				<button>Submit</button>
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>
